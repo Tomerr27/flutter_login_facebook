@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 // ─── CONFIGURACIÓN ──────────────────────────────────────────────────────────
 // Fuentes de datos (sin necesidad de API key para la fuente pública)
 const FOOTBALL_API_BASE = "https://api.football-data.org/v4";
-const API_KEY = process.env.FOOTBALL_API_KEY || "b16baa28ebae4c32a0c16097438e0bb7"; // Opcional: https://www.football-data.org/client/register
+const API_KEY =   "b16baa28ebae4c32a0c16097438e0bb7"; // Opcional: https://www.football-data.org/client/register
 
 // ID del Mundial 2026 en football-data.org  (2018=467, 2022=2000, 2026=TBD)
 // Usamos también una fuente pública de respaldo
